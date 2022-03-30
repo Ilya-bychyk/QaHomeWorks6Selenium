@@ -34,7 +34,6 @@ public class Dropdown {
         String option1 = select.getFirstSelectedOption().getText();
         Assert.assertEquals(option1, "Option 1");
     }
-
     @Test
     public void dropdownOption2Test() {
         WebElement element = driver.findElement(By.id("dropdown"));
